@@ -1,0 +1,98 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to bottom, white, #dddddd);
+}
+.icon-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-bar a{
+    
+    padding: 20px 30px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.icon-bar a i{
+
+    color: gray;
+}
+
+.icon-bar a div{
+    font-family: sans-serif;
+}
+
+.menu-items{
+    
+    color: black;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.icon-bar a:hover{
+    background-color: black;
+    border-radius: 10px;
+    transform: scale(1.2);
+    filter: blur(0px) !important;
+    transition: transform 0.5s;
+}
+
+.icon-bar a:hover div{
+    color: white;
+}
+
+.icon-bar a:hover i{
+    color: white;
+}
+
+.icon-bar:hover a{
+    filter: blur(3px);
+}
+#para1{
+    font-family: 'Shadows Into Light', cursive;
+}
+#para2{
+    font-family: 'Permanent Marker', cursive;
+}
+#para3{
+    font-family: 'Passions Conflict', cursive;
+}
+#para4{
+    font-family: 'Pacifico', cursive;
+
+}
+#para5{
+    font-family: 'Noto Sans Mono', monospace;
+
+}
+#para6{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+#para7{
+    font-family: 'Indie Flower', cursive;
+
+}
+#para8{
+    font-family: 'Dancing Script', cursive;
+
+}
+#para9{
+    font-family: 'Bebas Neue', cursive;
+
+}
+#para10{
+    font-family: 'Alkalami', serif;
+
+}
